@@ -9,7 +9,7 @@ public:
             if (num % val == 0) {
                    count++;
             }
-            x/=10;
+            x=x/10;
             
         }
         return count;
