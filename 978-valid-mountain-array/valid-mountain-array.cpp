@@ -14,10 +14,6 @@ public:
         while(i+1<arr.size() && arr[i]>arr[i+1]){
             i++;
         }
-        if(i==arr.size()-1){
-            return true;
-        }
-        else
-        return false;
-    }
+        return i==arr.size()-1;
+    }  
 };
